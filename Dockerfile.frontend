@@ -17,6 +17,8 @@ COPY ./package-lock.json /app/prediction-app-frontend
 RUN npm ci --silent
 RUN npm install
 
+RUN echo $PORT
+
 COPY . .
 
 RUN npm run build
