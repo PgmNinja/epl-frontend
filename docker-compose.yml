@@ -16,6 +16,3 @@ services:
 
 networks:
   main:
-
-volumes:
-  postgresql-data:
